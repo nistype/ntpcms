@@ -1,0 +1,400 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+a:link{
+	text-decoration: none;
+}
+body{
+	background: url('https://www.hobba.fm/assets/images/covers/palooza14_background_left_1.png') left bottom fixed no-repeat,
+	url('https://www.hobba.fm/assets/images/covers/palooza14_background_right.png') right bottom fixed no-repeat,#C5FB65 linear-gradient(#ef9e69, #ffba82) bottom no-repeat fixed;
+	font-family: Open Sans,Verdana,Arial;
+    font-size: 11px;
+}
+nav{
+	height: 40px;
+	background: url('../bar.png');
+}
+
+.noaccount {
+	width: 200px;
+	font-size: 12px;
+	text-align: left;
+	height: 20px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	color: #444;
+	text-shadow: 2px 2px 1px #ddd;
+	cursor: pointer;
+	text-decoration: none;
+}
+.mainbox {
+	width: 900px;
+	height: 460px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	-moz-animation: opacity 1s;
+	-webkit-animation: opacity 1s;
+	margin: 60px auto 0 auto;
+}
+
+.bottombox {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 900px;
+	height: 100px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	margin-left: auto;
+	margin-right: auto;
+	-moz-animation: opacity 1s;
+	-webkit-animation: opacity 1s;
+}
+.bottomimgbox {
+	margin-left: 15px;
+	margin-top: 15px;
+	float: left;
+	width: 870px;
+	height: 70px;
+	background: url('../imgbas.png');
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.mainbgbox {
+	margin-left: 15px;
+	margin-top: 15px;
+	float: left;
+	width: 870px;
+	height: 430px;
+	background: url('../mainbg.png');
+	border-radius: 5px;
+}
+
+.boxlogo {
+	width: 210px;
+	height: 62px;
+	float: left;
+	margin-top: 40px;
+	position: absolute;
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.boxcount{
+	width: 210px;
+	height: 22px;
+	float: left;
+	margin-top: 110px;
+	position: absolute;
+	background-color: rgba(255,255,255,0.9);
+	color: #999;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	padding-top: 5px;
+	text-shadow: 2px 2px 1px #ddd;
+	text-align: center;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.boxlogin {
+	width: 280px;
+	height: 350px;
+	background-position: 114px 247px;
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	border-radius: 5px;
+	margin-right: 290px;
+	margin-top: 40px;
+	float: right;
+}
+
+
+.box{
+	background-size: cover;
+    width: 366px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: left;
+    padding: 8px;
+}
+.boxregisterpromovideo {
+	margin-left: 15px;
+	margin-top: 15px;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+    background-color: gray;
+}
+.boxregisterpromo {
+	margin-left: 40px;
+	margin-top: 40px;
+    width: 330px;
+    height: 280px;
+    float: left;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(255,255,255,0.9);
+}
+.box h3{
+	background-color: rgba(37, 37, 37, 0.65);
+    font-size: 18px;
+    opacity: 0.88;
+    border-radius: 6px;
+    text-align: center;
+}
+div.loginBox-S > input[type="submit"] {
+	background-color: #3b88c3;
+	width: 219px;
+	height: 27px;
+	font: bolder 12px Open Sans,Verdana,Arial;
+	color: white;
+	border: 2px solid #55acee;
+	border-radius: 6px;
+	float: left;
+	cursor: pointer;
+	margin-left: 30px;
+}
+
+div.loginBox-C > input[type="submit"] {
+	background-color: #3b88c3;
+	width: 70px;
+	height: 27px;
+	font: bolder 12px Open Sans,Verdana,Arial;
+	color: white;
+	border: 2px solid #55acee;
+	border-radius: 6px;
+	float: left;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+div.loginBox-S > input[type="submit"]:hover {
+	background-color: #4095d6;
+}
+div.loginBox-R > input[type="submit"] {
+	background-color: #c78800;
+	width: 219px;
+	height: 27px;
+	font: bolder 12px Open Sans,Verdana,Arial;
+	color: white;
+	border: 2px solid #f0bb00;
+	border-radius: 6px;
+	float: left;
+	cursor: pointer;
+	margin-left: 30px;
+	margin-top: 7px;
+}
+div.loginBox-RR > input[type="submit"] {
+	background-color: #3b88c3;
+	width: 219px;
+	height: 27px;
+	font: bolder 12px Open Sans,Verdana,Arial;
+	color: white;
+	border: 2px solid #55acee;
+	border-radius: 6px;
+	float: left;
+	cursor: pointer;
+	margin-left: 30px;
+	margin-top: 7px;
+}
+div.loginBox-R > input[type="submit"]:hover {
+	background-color: #d29000;
+}
+.joinText{
+	background-color: rgba(0,0,0,0.4);
+	width: 370px;
+	height: 42px;
+	border-radius: 2px;
+	text-align: center;
+	font: 28px Open Sans,Verdana,Arial;
+	color: white;
+}
+label {
+	text-shadow: 2px 2px 1px #ddd;
+	color: #999;
+}
+#box-container{
+	padding: 10px;
+	-ms-display: flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+#pos-container{
+    position: relative;
+    left: 70%;
+    top: 30%;
+}
+#joinButton{
+	background: url('../newuser.png') no-repeat scroll 0 0 transparent;
+	background-position: 25px 5px;
+	background-color: rgb(0,129,62);
+	border: solid 2px rgb(142, 218, 85);
+	width: 367px;
+	height: 50px;
+	border-radius: 2px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 0px 1px;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 20px;
+	font: 28px Open Sans,Verdana,Arial;
+	color: white;
+	cursor: pointer;
+	animation: shake 1.15s cubic-bezier(.36,.07,.19,.97) 1s both infinite;
+}
+#joinButton:hover{
+	background-color: rgb(0, 153, 73);
+}
+
+/* ----------------------------------- */
+
+.logox {
+	background: url(https://rp.habbot.me/login/logologin.png);
+	width: 140px;
+	height: 41px;
+	margin-left: 599px;
+	margin-top: -47px;
+	float: left;
+	position: absolute;
+}
+div.logo {
+    position: absolute;
+    height: 52px;
+    width: 110px;
+    top: 20px;
+    left: 5px;
+}
+.title {
+	width: 220px;
+	height: 30px;
+	margin-left: 30px;
+	margin-top: 20px;
+	color: #444;
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+}
+.separator {
+	margin-left: 30px;
+	margin-top: 10px;
+	width: 220px;
+	height: 1px;
+	background-color: rgba(0,0,0,0.3);
+	box-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+form > div.loginBox-E > input[type="text"] {
+	background: url('http://habboemotion.com/resources/images/icons/hatboynl9.gif') no-repeat scroll 0 0 transparent;
+	background-position: 4px 5px;
+	background-color: white;
+	box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.1);
+	font-family: Open Sans,Verdana,Arial;
+	border: 1px solid #e7e7e7;
+	color: #555555;
+	padding: 5px 5px 5px 30px;
+	width: 103px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+form > div.loginBox-U > input[type="text"] {
+	background: url('http://habboemotion.com/resources/images/icons/hatboynl9.gif') no-repeat scroll 0 0 transparent;
+	background-position: 2px 5px;
+	background-color: white;
+	box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.1);
+	font-family: Open Sans,Verdana,Arial;
+	border: 1px solid #e7e7e7;
+	color: #555555;
+	padding: 5px 5px 5px 30px;
+	width: 183px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+form > div.loginBox-EM > input[type="text"] {
+	background: url('http://habboemotion.com/resources/images/icons/mail_2.gif') no-repeat scroll 0 0 transparent;
+	background-position: 4px 8px;
+	background-color: white;
+	box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.1);
+	font-family: Open Sans,Verdana,Arial;
+	border: 1px solid #e7e7e7;
+	color: #555555;
+	padding: 5px 5px 5px 30px;
+	width: 183px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+form > div.loginBox-P > input[type="password"] {
+	background: url('http://habboemotion.com/resources/images/icons/new_14.gif') no-repeat scroll 0 0;
+	background-position: 4px 5px;
+	background-color: white;
+	box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.1);
+	font-family: Open Sans,Verdana,Arial;
+	border: 1px solid #e7e7e7;
+	color: #555555;
+	padding: 5px 5px 5px 30px;
+	width: 183px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+.iconuser{
+	background: url('../loginicons.png');
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 18px;
+	height: 17px;
+}
+.error-messages-holder {
+	width: 180px;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding: 10px 20px;
+	background-color: #de4343;
+	border: 2px solid #ee7373;
+	border-radius: 6px;
+	display: block;
+	color: white;
+	box-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+	animation: shake 1.15s cubic-bezier(.36,.07,.19,.97) 1s both 1;
+}
+
+@keyframes shake {
+    10%,90% {
+        transform: translate3d(-1px,0,0);
+    }
+
+    20%,80% {
+        transform: translate3d(2px,0,0);
+    }
+
+    30%,50%,70% {
+        transform: translate3d(-4px,0,0);
+    }
+
+    40%,60% {
+        transform: translate3d(4px,0,0);
+    }
+}
+
+@keyframes opacity {
+
+	from{ opacity: 0;}
+	to{opacity: 1;}
+}
