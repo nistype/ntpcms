@@ -1,0 +1,31 @@
+/* Awokz */
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@import url(container.css);
+
+body { margin: 0;padding: 0;font-family: "Lato";background: url(../img/bg.png); }
+.clear { clear:both; }
+.left{ float:left;}
+.right { float:right; }
+::-webkit-scrollbar { width: 8px;height: 8px;position:fixed;box-shadow: 0 0 4px rgba(0,0,0,0.5); }
+::-webkit-scrollbar-track-piece { background:#333333; }
+::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.7);border-radius:2px; }
+::-webkit-scrollbar-thumb:hover { background:rgba(255,255,255,0.6) }
+header { background: #84bfed url(https://rp.habbot.me/assets/images/header.png) no-repeat center;background-size: cover;height: 165px; }
+.logo { background: url(https://rp.habbot.me/assets/images/logo.png) no-repeat; height: 68px;width: 250px;position: absolute;margin-top: 49px;right:380px; }
+.onlinebox { height: 41px;position: absolute;top: 62px;left: 220px;background: #fff;box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.15);border-radius: 2px;line-height: 41px;padding: 0 20px;color: rgba(0, 0, 0, .7); }
+.onlinebox .arrow { border-style: solid;border-color: transparent #fff transparent transparent;position: absolute;border-width: 10px;left: -20px;top: 50%;margin-top: -10px; }
+.box { width:100%;height:200px;background: #fff;border-radius: 5px;box-shadow:0 2px 5px 0 rgba(0, 0, 0, .10);margin-bottom: 15px;margin-right:40px;margin-left:265px; }
+.box h1 { color: #ffffff;padding:15px;font-size:18px;font-weight:600;line-height:18px; }
+.titlebox { color: #323b42;padding: 11px;border-radius: 5px 5px 0px 0px;text-transform: uppercase; }
+.titlebox a { border-bottom: 2px solid #949799;padding: 6px; }
+.contenubox { padding: 10px; }
+.btn_discord { padding: 7px 12px;color: #fff;font-weight: 600;background: #7289DA;border-bottom: 3px solid #677bbf;text-align: center;border-radius: 3px;margin-top: 62px;text-transform: uppercase;display: inline-block; }
+form { margin-left:0px;float:left; }
+form input { float:left;border:none;background:#eee;padding:0 15px;height:40px;margin-bottom: 9px;color:#3e3e3e; }
+form input[type="submit"] { float:left;font-size:13px;text-transform:uppercase;color:#fff;background:#323b42;border-bottom: 3px solid #949799;cursor:pointer;width: 107px; }
+.footer { margin-top: 10px;font-size: 9pt;font-weight: 600;color: #989898; }
+.footer a { color: #989898;text-decoration: none; }
+.footer a:hover { color: #696969;text-decoration: none; }
+.footer { display: table;vertical-align: middle;min-height: 75px;width: 100%; }
+.footer .footer_border { width: 4px;background: #383e42; border-bottom: 4px solid #383e42;height: 100%;display: table-cell;vertical-align: middle; }
+.footer .footer_content { background: #ffffff;border-bottom: 4px solid #c5c5c5;height: 100%;padding: 0 15px;display: table-cell;vertical-align: middle; }

@@ -1,0 +1,179 @@
+.card-title {
+    color: #444;
+    font-weight: 300 !important;
+}
+
+.mybutton {
+    width: 70%;
+    background: #14b3e2 !important;
+    box-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0.14) !important;
+    border-radius: 4px !important;
+}
+
+.card {
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    overflow: hidden;
+}
+
+.header-top {
+    background: url('../../assets/images/default_new_bg_right.png') no-repeat 100% 15% #a1c7ef;
+    height: 210px;
+    width: 100%;
+}
+
+.logo {
+    background: url('../../assets/images/logo.png') no-repeat 50%;
+    width: 320px;
+    height: 210px;
+}
+
+.slider {
+    margin-top: 8px;
+}
+
+.slider .slides {
+    background-color: transparent !important;
+}
+
+nav {
+    height: 90px !important;
+    line-height: 90px !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14);
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+nav .sidenav-trigger i {
+    height: 90px !important;
+    line-height: 90px !important;
+    color: #444 !important;
+}
+
+nav ul a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+.sidenav li>a {
+    font-weight: 500;
+    color: #444;
+    text-transform: capitalize;
+}
+
+nav ul a:hover {
+    background: transparent !important;
+}
+
+.dropdown-content {
+    margin-top: 100px !important;
+    border-radius: .25rem !important;
+    top: 0px !important;
+}
+.newsinfouser{
+    width: calc(100% - 17em);
+    height: 140px !important;
+    float: right;
+    background: white;
+    position: relative;
+    border-radius:4px;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.titulonew{
+    background-image: linear-gradient(#5ba5ea, #468bc9);
+    border-radius: 3px;
+    color:#fff;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    text-shadow: 0px 2px rgba(0,0,0, 0.10);
+    text-align: center;
+    font-size: 16px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    color: #444;
+}
+
+.nickname {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 50px;
+} 
+
+.motto {
+    font-weight: 400;
+}
+
+.home-page-pj-bg {
+    background: rgba(0, 0, 0, 0.30);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: -24px;
+    margin-left: -24px;
+    border-radius: 4px;
+    z-index: 8;
+}
+
+.title-custom {
+    background-size: cover !important;
+    padding: 12px 30px;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #fff;
+    opacity: 0.9;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0.14) !important;
+}
+
+.card .card-content p {
+    padding: 20px 30px;
+}
+
+.pj {
+    width: 128px;
+    height: 185px;
+    margin-bottom: -24px;
+    margin-left: -41px;
+}
+
+.card {
+    box-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0.14) !important;
+    border-radius: 4px !important;
+}
+
+.mycustomcard {
+    position: absolute;
+    width: 100%;
+    margin-top: -64px;
+}
+
+@media only screen and (max-width: 992px) {
+    .ocultar {
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .logo {
+        width: 100%;
+    }
+    
+    .brand-logo {
+        color: #444 !important;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+}
