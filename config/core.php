@@ -6,10 +6,10 @@
     session_start();
     // Ajuster le siteweb
     $sitename = "Habbo";
-    $linkswf = "https://hmarino.net/swf/c_images/album1584/"; // Link de la carpteta de imagenes de placas
+    $linkswf = "https://localhost/swf/c_images/album1584/"; // Lien pour les badges du cms
     $site = "localhost";
     $colorsv = "#14b3e2";
-    $facebook = "https://www.facebook.com/HabboES";
+    $facebook = "https://www.facebook.com/id;
     $prod = ""; // Production
     $hswf = ""; // Habbo.swf
     $iphost = ""; // IP EMU
@@ -22,7 +22,7 @@
     $fima = ""; // Figuremap
     $fuda = ""; // Furnidata
     $pd = ""; // Productdata
-    $cloading = "Habbaw est en cours de chargement.."; // Texte chargement hotel
+    $cloading = "Habbo est en cours de chargement.."; // Texte chargement hotel
     $error = ""; // Page d'erreur
     date_default_timezone_set('America/Mexico_City');  // Zone horraires
     $register = array(
