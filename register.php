@@ -5,49 +5,13 @@
       header("Location: $site/me");
   }
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?php echo $sitename; ?>: <?php echo $page; ?></title>
-    <link rel="shortcut icon" href="<?php echo $site; ?>/assets/images/favicon.ico">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo $site; ?>/assets/css/material.css">
-    <link rel="stylesheet" href="<?php echo $site; ?>/assets/css/index.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <link rel="stylesheet" href="<?php echo $site; ?>/assets/css/tipsy.css" tyle="text/css">
-    <script type="text/javascript" src="<?php echo $site; ?>/assets/js/jquery.tipsy.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-    $(document).ready(function(){
-        $('.sidenav').sidenav();
-        $(".dropdown-trigger").dropdown();
-        $('select').formSelect();
-        $('.slider').slider({
-            indicators: false,
-            height: 300
-        });
-    });
-    </script>
-</head>
-<div class="container" style="position:absolute;margin-top:50px; right:-120px;">
-<div class="row" >
-    <div class="col s12 m4">
-      <div style="background: transparent;">
-        <div class="card-content black-text">
-          <div class="row">
-              <div class="logo" style="height: 106px;"></div>
-              <?php
-    if(isset($_POST['create']) && isset($_POST['RUsername']) && isset($_POST['ROPassword']) && isset($_POST['RTPassword']) && isset($_POST['RMail']) && isset($_POST['gender']))
+   <?php
+    if(isset($_POST['create']) && isset($_POST['RUsername']) && isset($_POST['ROPassword']) && isset($_POST['RTPassword']) && isset($_POST['RMail']))
     {
         $RU = trim($_POST['RUsername']);
         $ROP = $_POST['ROPassword'];
         $RTP = $_POST['RTPassword'];
         $RM = $_POST['RMail'];
-        $gender = $_POST['gender'];
         $Fail = false;
         $date_full = time();
 
@@ -88,12 +52,7 @@ if (preg_match($pattern, $RUsername)){
 echo '<div class="errorreg">Erreur : n’utilise pas de caractères ou de noms bizarres.</div>';
 $fail= true;
 }
-        if($_POST['Gender'] == 'M') {
-            $Look = "sh-290-1408.ch-215-1301.lg-270-1223.hd-180-1.hr-100-40";
-        } else {
-            $Look = "ch-824-1412.lg-3057-1426.fa-3276-97.hr-836-37.ca-3175-64.sh-3016-1412.hd-600-1";
-        }
-        mysqli_query($conn, "INSERT INTO users (username,password,mail,gender,credits,pixels,motto,look,account_created,ip_register,pais) VALUES ('$RU', '". md5($ROP) ."', '$RM', '$gender','$register[credits]', '$register[vip_points]', '$register[motto]', '$register[look]', '". time() ."','$ip', '$pais')");
+        mysqli_query($conn, "INSERT INTO users (username,password,mail,credits,pixels,motto,look,account_created,ip_register,pais) VALUES ('$RU', '". md5($ROP) ."', '$RM','$register[credits]', '$register[vip_points]', '$register[motto]', '$register[look]', '". time() ."','$ip', '$pais')");
         $sql_newuser = "SELECT * FROM users WHERE username='$RU' AND password='". md5($ROP) ."'";
               $result_newuser = $conn->query($sql_newuser);
               $session = $result_newuser->fetch_array();
@@ -103,25 +62,59 @@ $fail= true;
     }
     }
 ?>
-             <form method="POST" style="">
-              <input type="text" style="text-align:center;color:#80b5c1;background: #FFF;border-radius: 6px;height: 55px;border:none;box-shadow: inset 0 2px 0px #fff, 6px 6px 0px #4a4e4f;margin-bottom: 10px;font-size: 20px;margin-bottom: 6px;" placeholder="Pseudonyme" name="RUsername">
-              <input type="password" style="text-align:center;color:#80b5c1;font-size: 20px;border:none;background: #FFF;border-radius: 6px;height: 55px;box-shadow: inset 0 2px 0px #fff, 6px 6px 0px #4a4e4f;margin-bottom: 6px;" placeholder="Mot de passe" name="ROPassword">
-               <input type="password" style="text-align:center;color:#80b5c1;font-size: 20px;border:none;background: #FFF;border-radius: 6px;height: 55px;box-shadow: inset 0 2px 0px #fff, 6px 6px 0px #4a4e4f;margin-bottom: 6px;" placeholder="Repete ton mot de passe" name="RTPassword">
-               <input type="text" style="text-align:center;color:#80b5c1;font-size: 20px;border:none;background: #FFF;border-radius: 6px;height: 55px;box-shadow: inset 0 2px 0px #fff, 6px 6px 0px #4a4e4f;margin-bottom: 6px;" placeholder="Adresse email" name="RMail">
-               <div style="text-align:center;color:#80b5c1;font-size: 20px;border:none;background: #FFF;border-radius: 6px;height: 55px;box-shadow: inset 0 2px 0px #fff, 6px 6px 0px #4a4e4f;margin-bottom: 6px;">
-                <select name="gender"required>
-                  <option value="" disabled>Sélectionnez votre genre</option>
-                  <option value="M" selected>Homme</option>
-                  <option value="F">Femme</option>
-                </select/>
-              </div>
-              <button type="submit" name="create" style="width:100%;color:#fff;font-size: 20px;background: #5ded75;border-radius: 6px;height: 55px;border:none;box-shadow: inset 0 6px 0px rgba(255,255,255,.4), 6px 6px 0px #4a4e4f;padding-left: 10px;padding-right: 10px;text-shadow: 0px -2px rgba(0,0,0,.2);margin-bottom: 6px;">S'inscrire</button>
-          </form>
-                 <a href="<?php echo $site; ?>"> <button type="submit" style="width:100%;color:#fff;font-size: 20px;background: #79b1be;border-radius: 6px;height: 55px;border:none;box-shadow: inset 0 -6px 0px rgba(0,0,0,.1), 6px 6px 0px #4a4e4f;padding-left: 10px;padding-right: 10px;text-shadow: 0px -2px rgba(0,0,0,.2);">Déjà un compte ?</button></a>
-        </div>
-        </div>
-      </div>
-    </div> 
-    </div>
-  </div>
-</div>
+<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><?php echo $sitename; ?>: <?php echo $page; ?></title>
+        <link rel="shortcut icon" href="<?php echo $site; ?>/assets/images/favicon.ico">
+	    <link media="all" type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+	    <link href="login/css/register.css" rel="stylesheet" type="text/css"/>
+	    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+	</head>
+
+                				<div class="logox"></div>
+	<body>
+	<div class="mainbox">
+		<div class="mainbgbox">
+			<div class="boxlogin">
+			<div class="title">Inscription</div>
+			<div class="separator"></div>
+			<div id="error-messages-container"> 
+			
+			</div> 
+			<form method="post">
+			<input type="hidden" name="RUsername" value="" id="refer" placeholder="" maxlength="11"/>
+			<div class="loginBox-U">
+			<input type="text" name="RUsername" value="" id="username" placeholder="Pseudonyme" maxlength="16" required="" />
+			</div>
+			<div class="loginBox-P">
+			<input type="password" name="ROPassword" id="password" value="" placeholder="Mot de passe" required=""/>
+			</div>
+			<div class="loginBox-P">
+			<input type="password" name="RTPassword" id="" placeholder="Mot de passe" required=""/>
+			</div>
+			<div class="loginBox-EM">
+			<input type="text" name="RMail" value="" placeholder="Adresse Email" required=""/>
+			</div>
+			<a href="<?php echo $site; ?>/me">
+			<div class="loginBox-R">
+			<input type="submit" id="next" value="Rejoindre" name="create" />
+			</div>
+			</a>
+			</form>
+                 <a href="http://88.99.153.133">
+			<div class="noaccount"><b>Déjà un compte?</b></div>
+                <div class="loginBox-RR">
+			<input type="submit" value="Retour connexion" name="Reg" />
+			</div>
+			</a>
+		</div>
+	</div>
+	</div>
+        <br>
+        <br>
+        <br>
+		<?php require 'footer.php'; ?>
+	</div>
+	</body>
+</html>
