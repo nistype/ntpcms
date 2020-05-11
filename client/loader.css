@@ -1,0 +1,379 @@
+     #loader-wrapper {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 1000;
+}
+#loaderdeps {
+     background:url()top center no-repeat;
+     height: 44px;
+     width: 300px;
+     padding-top:65px;
+     text-align: center;
+     color:#fff;
+     font-size: 20px;
+     z-index: 1001;
+     display: block;
+     position: absolute;
+     top:0;
+     bottom:0;
+     left:0;
+     right:0;
+     margin: auto;
+         image-rendering:pixelated;
+}
+
+#loader_bar.percent {
+background: #f5f5f5;
+    display: block;
+    width: 5%;
+    height: 25px;
+    position: absolute;
+    /* right: 0; */
+    left: 0px;
+    /* bottom: 0; */
+    /* top: 0; */
+    margin: auto;
+    transition: 1s ease;
+    width: 10px;
+}
+
+#loaderpre{
+border: 2px solid white;
+    height: 25px;
+    border-radius: 4px;
+    background: linear-gradient(36deg, #5858584f, transparent);
+    position: relative;
+    top: 115px;
+}
+#loader-wrapper .loader-section {
+position: fixed;
+    width: 100%;
+    height: 50%;
+    z-index: 1000;
+    background: linear-gradient(#0e3db3,#000000);
+    background-attachment: fixed;
+    animation:cambiarcolor 3s ease infinite;
+}
+
+@keyframes cambiarcolor{
+0% {
+    background: #0e3db3;
+}
+25% {
+    background: #122e75;
+    background-attachment: fixed;
+}
+60% {
+    background: #0f255d;
+}
+80% {
+    background: #060f25;
+}
+100% {
+    background: #0a1a40;
+}
+
+}
+#loader-wrapper .loader-section.section-top {
+     top: 0;
+     left:0;
+     right:0;
+}
+#loader-wrapper .loader-section.section-bottom {
+     bottom: 0;
+     left:0;
+     right:0;
+}
+/* Loaded styles */
+
+.loaded #loader-wrapper .loader-section.section-top {
+     -webkit-transform: translateY(-100%);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+     -ms-transform: translateY(-100%);
+    /* IE 9 */
+     transform: translateY(-100%);
+    /* Firefox 16+, IE 10+, Opera */
+     -webkit-transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6 */
+     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+ */
+}
+.loaded #loader-wrapper .loader-section.section-bottom {
+     -webkit-transform: translateY(100%);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+     -ms-transform: translateY(100%);
+    /* IE 9 */
+     transform: translateY(100%);
+    /* Firefox 16+, IE 10+, Opera */
+     -webkit-transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6 */
+     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+ */
+}
+.loaded #loader {
+     opacity: 0;
+     -webkit-transition: all 0.3s ease-out;
+    /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6 */
+     transition: all 0.3s ease-out;
+    /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+ */
+}
+.loaded #loader-wrapper {
+     visibility: hidden;
+     -webkit-transform: translateX(-100%);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+     -ms-transform: translateX(-100%);
+    /* IE 9 */
+     transform: translateX(-100%);
+    /* Firefox 16+, IE 10+, Opera */
+     -webkit-transition: all 0.3s 1s ease-out;
+    /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6 */
+     transition: all 0.3s 1s ease-out;
+    /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+ */
+}
+#scrollcito{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 900%;
+    border: 5px solid #eaeaea;
+    border-bottom: 5px solid #eaeaea1a;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: -121px;
+    left: 0;
+    right: 0;
+    animation: girar 1s linear infinite;
+}
+
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#loading-text{
+    text-align: center;
+    font-family: arial;
+    position: relative;
+    margin-top: -101px;
+
+}
+
+#background-right {
+    background: url(http://i226.photobucket.com/albums/dd184/SergioMech/MusicHabbo.gif) right bottom;
+    width: 432px;
+    height: 455px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 241px;
+    bottom: -22px;
+    z-index: 99999999;
+}
+
+
+
+
+
+#background-right-3 {
+    display: block;
+    width: 95.5%;
+    background: url(http://www.expotrade.com.ar/reglamento/images/4/47/Alerta.png);
+    background-size: 49px;
+    background-position: 48px 8px;
+    background-repeat: no-repeat;
+    background-color: #8c1515;
+    border: 2px solid #b12424;
+    margin-right: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: arial;
+    color: white;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top:10px;
+            opacity: 0;
+    /* width: 100px; */
+    z-index: 9999;
+    margin-top: 0px;
+    transition: 5s ease;
+    animation: desaparecer 30s linear;
+}
+
+@keyframes desaparecer{
+    from{
+        top:10px;
+        opacity: 1;
+        transition: 5s ease;
+            margin-top: 800px;
+
+    }
+
+}
+
+@keyframes walk{
+    from{
+        margin-top:-900px;
+    }
+}
+
+#info-user-load{
+display: block;
+    background: white;
+    position: absolute;
+    z-index: 9999;
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 6px;
+    box-shadow: -1px 0px 2px #00000047;
+}
+
+#info-user-load2{
+display: block;
+    background: white;
+    position: absolute;
+    z-index: 9999;
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 6px;
+    box-shadow: 1px 0px 4px #bbbbbb47;
+    left: 72px;
+    }
+
+    #text-title-car{
+        display: block;
+        font-family: "Poppins", sans-serif;
+    }
+
+    #background-left{
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    left: 38%;
+    background: url(/habbluweb/images/backg.png);
+    width: 458px;
+    height: 519px;
+    bottom: -324px;
+    background-repeat: no-repeat;
+    }
+
+    #img-logo-client{
+display: block;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    }
+
+    @font-face{
+    font-family: "Poppins";
+    src: url(../fuentes/Poppins.ttf);
+}
+
+    #clienterror{
+        display: block;
+        color: #000;
+    background: linear-gradient(45deg, #088cfd, #00d0ff);
+    font-family: 'Ubuntu';
+    padding: 48px 12px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1000000;
+    }
+
+    #background-recuadro{
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px #00000057;
+    }
+
+    #container{
+display: block;
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 132px;
+    }
+
+    #img-error{
+    display: block;
+    height: 55px;
+    width: 55px;
+    background-size: 58px !important;
+    background-repeat: no-repeat !important;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 21px;
+    }
+
+    #text-cont{
+            font-size: 16px !important;
+    font-family: "Poppins", sans-serif !important;
+    line-height: 1.5 !important;
+    width: auto !important;
+    }
+
+    #active-button{
+display: block;
+    text-decoration: none;
+    padding: 10px;
+    background: #007eff;
+    color: white;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    }
+
+    #efect-client{
+        display: block;
+        animation: clientefect 1s ease;
+    }
+
+    @keyframes clientefect{
+        0%{
+            transform: scale(0.5);
+        }
+
+        100%{
+            transform: scale(1);
+        }
+    }
+
+ #backh-logo{
+display: block;
+    position: absolute;
+    left: -100px;
+    margin-top: 15px;
+    animation:moveizabbo 0.5s cubic-bezier(0.83, 0.3, 1, -0.21) infinite alternate;
+ }
+
+ /*@keyframes moveizabbo{
+    0%{
+        filter: brightness(0.5);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+ }*/
