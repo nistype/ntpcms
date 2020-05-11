@@ -12,7 +12,7 @@
   <div class="title-red">
   Utilisateurs aux hasards
   </div>
-      <div class="card" style="overflow:visible;height:auto;padding-bottom:15px;background: url(<?php echo $site; ?>/assets/images/clouds.png);">
+      <div class="card" style="overflow:visible;height:auto;padding-bottom:15px;background: url(https://www.habbox.com/images/calvin/archive/images/backgrounds/tiles/DE_Background_Summer.gif);">
  <?php
   $news = mysqli_query($conn, "SELECT * FROM users ORDER BY id DESC LIMIT 13");
     while ($new = mysqli_fetch_assoc($news)) {
@@ -46,22 +46,9 @@
                       <?php } ?>
       </div>
     </div>
-<div class="col s12 m8" style="position: relative;top:8px;">
-   <div class="title-green">
-   Derniers utilisateurs
-  </div>
-  <div class="card" style="background: url(<?php echo $site; ?>/assets/images/cloudsweek.png);height: 100px;">
-       <?php
-  $noticias = mysqli_query($conn, "SELECT * FROM users ORDER BY id DESC LIMIT 1");
-    while ($noticiast = mysqli_fetch_assoc($noticias)) {
-                  ?>
-    <img src="https://habbo.es/habbo-imaging/avatarimage?figure=<?php echo $noticiast['look']; ?>&action=std&gesture=std&direction=2&head_direction=2&size=l&headonly=1&img_format=png" style="float: left;position: relative;top:-15px;">
-    <div class="card" style="width: auto;float:left;position: relative;top:10px;"><b><a href="<?php echo $site;?>/profil/<?php echo $noticiast['id']; ?>" style="color:#444;"><?php echo $noticiast['username']; ?></a></b>: <?php echo $noticiast['motto']; ?></div>
-  <?php } ?>
-  </div>
-    </div>
+      <iframe src="https://discordapp.com/widget?id=703936648291024897&theme=dark" width="620" height="240" allowtransparency="true" frameborder="0"></iframe>
     <div class="col s12 m4" style="position: relative;top:8px;">
-       <div class="title-blue">Statistiques de <?php echo $sitename; ?></div>
+       <div class="title-blue">Statistiques</div>
       <div class="card">
         <div class="infohotel">
 <b>Rooms:</b> <?php
