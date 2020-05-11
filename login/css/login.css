@@ -7,8 +7,7 @@ a:link{
 	text-decoration: none;
 }
 body{
-	background: url('https://www.hobba.fm/assets/images/covers/palooza14_background_left_1.png') left bottom fixed no-repeat,
-	url('https://www.hobba.fm/assets/images/covers/palooza14_background_right.png') right bottom fixed no-repeat,#C5FB65 linear-gradient(#ef9e69, #ffba82) bottom no-repeat fixed;
+	background: url('https://www.hobba.fm/assets/images/covers/palooza14_background_left_1.png') left bottom fixed no-repeat, url('https://www.hobba.fm/assets/images/covers/palooza14_background_right.png') right bottom fixed no-repeat,#35323E linear-gradient(#848293, #5a5866) bottom no-repeat fixed;
 	font-family: Open Sans,Verdana,Arial;
     font-size: 11px;
 }
@@ -182,12 +181,12 @@ div.loginBox-S > input[type="submit"]:hover {
 	background-color: #4095d6;
 }
 div.loginBox-R > input[type="submit"] {
-	background-color: #c78800;
+	background-color: #f44040;
 	width: 219px;
 	height: 27px;
 	font: bolder 12px Open Sans,Verdana,Arial;
 	color: white;
-	border: 2px solid #f0bb00;
+	border: 2px solid #ec2929;
 	border-radius: 6px;
 	float: left;
 	cursor: pointer;
@@ -195,7 +194,7 @@ div.loginBox-R > input[type="submit"] {
 	margin-top: 7px;
 }
 div.loginBox-R > input[type="submit"]:hover {
-	background-color: #d29000;
+	background-color: #f75757;
 }
 .joinText{
 	background-color: rgba(0,0,0,0.4);
@@ -248,11 +247,11 @@ label {
 /* ----------------------------------- */
 
 .logox {
-	background: url(https://rp.habbot.me/login/logologin.png);
-	width: 140px;
-	height: 41px;
-	margin-left: 599px;
-	margin-top: -47px;
+	background: url(https://backhabbo.fr/assets/images/backhlogo.png);
+	width: 480px;
+	height: 105px;
+	margin-left: 420px;
+	margin-top: -60px;
 	float: left;
 	position: absolute;
 }
