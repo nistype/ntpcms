@@ -54,7 +54,7 @@ body{
 }
 table{
     box-shadow: none;
-    border:1px solid #fff;
+    /*! border:1px solid #fff; */
 }
 .newmensaje{
     float: right;
@@ -253,6 +253,19 @@ width: 100%;
     color: rgba( 0, 0, 0, .7 );
     strong {
     color: #cc5f5e;
+    }
+}
+.menews {
+@extend .bg-white;
+    border-radius: 0 5px 0 5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .2 );
+    width: 250px;
+    padding: 0px;
+    overflow: hidden;
+    color: rgba( 0, 0, 0, .7 );
+    strong {
+    color: #cc5f5e;
+    margin-bottom: 5px;
     }
 }
 .title-red {
@@ -596,6 +609,367 @@ width: 100%;
     color: #fff;
     }
 }
+.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-red {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}.title-menews {
+@extend .bg-white;
+    background: url('http://habboemotion.com/resources/images/topstory/300x187_TS_xantial.png');
+    border-radius:5px;
+    width: 250px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}
+}.title-menews {
+@extend .bg-white;
+    background: url('http://habboemotion.com/resources/images/topstory/300x187_TS_xantial.png');
+    border-radius:5px;
+    width: 250px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}
 .title-green {
 @extend .bg-white;
     background: url('../../assets/images/title-gang2.png');
@@ -736,6 +1110,133 @@ width: 100%;
     color: #fff;
     }
 }
+.title-meuser {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang2.png');
+    border-radius:5px;
+    width: 250px;
+    margin-top: -283px;
+    margin-left: 300px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;
+    margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}
+.title-meuser {
+@extend .bg-white;
+    background: url('http://habboemotion.com/resources/images/topstory/topStory_campHabbo_1.gif');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    margin-top: -166px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;
+    /*! margin-bottom: 5px; */
+    strong {
+    color: #fff;
+    }
+}
+.title-riche {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang2.png');
+    border-radius:5px;
+    width: 250px;
+    margin-top: -283px;
+    margin-left: 300px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;
+    margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}
+.title-riche {
+@extend .bg-white;
+    background: url('http://habboemotion.com/resources/images/topstory/ikuturso_hiddentreasure_topstory.png');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    margin-top: 63px;
+    margin-left: 0px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;
+    /*! margin-bottom: 5px; */
+    strong {
+    color: #fff;
+    }
+}
+.title-jmois {
+@extend .bg-white;
+    background: url('../../assets/images/title-gang2.png');
+    border-radius:5px;
+    width: 250px;
+    margin-top: -283px;
+    margin-left: 300px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;
+    margin-bottom: 5px;
+    strong {
+    color: #fff;
+    }
+}
+.title-jmois {
+@extend .bg-white;
+    background: url('http://habboemotion.com/resources/images/topstory/ts_ltribe_creepy.gif');
+    border-radius:5px;
+    box-shadow: 0 2px 0 rgba( 0, 0, 0, .1 );
+    padding: 4px;
+    margin-top: -166px;
+    margin-left: 300px;
+    overflow: hidden;
+    color:#fff;
+    height: 47px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    text-shadow: 0 0 8px rgba( 0, 0, 0, .3 );
+    padding-right: 15px;
+    /*! margin-bottom: 5px; */
+    strong {
+    color: #fff;
+    }
 .perso {
      float: right;
      left:15px;
@@ -903,11 +1404,12 @@ div.container.community .content_padding {
     background: url('../../assets/images/header.png') no-repeat 100% 15% #1e1c26;
     height: 210px;
     width: 100%;
+    /*! margin-top: -20px; */
 }
 
 .logo {
-    background: url('../../assets/images/logo.png') no-repeat 50%;
-    width: 320px;
+    background: url('../../assets/images/backhlogo.png') no-repeat 50%;
+    width: 400px;
     height: 210px;
 }
 
@@ -923,7 +1425,7 @@ nav {
     height: 90px !important;
     line-height: 90px !important;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14);
-    background: #fff;
+    background: #222631;
     margin-bottom: 20px;
 }
 
@@ -936,7 +1438,7 @@ nav .sidenav-trigger i {
 nav ul a {
     font-weight: 500;
     font-size: 18px;
-    color: #444;
+    color: #e8e1e1;
     text-transform: capitalize;
 }
 
@@ -1004,8 +1506,8 @@ nav ul a:hover {
     width: 100%;
     height: 100%;
     position: absolute;
-    margin-top: -24px;
-    margin-left: -24px;
+    margin-top: -30px;
+    margin-left: -28px;
     border-radius: 4px;
     z-index: 8;
 }
@@ -1022,7 +1524,7 @@ nav ul a:hover {
     box-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0.14) !important;
 }
 .staffinfo{
-    background-image: url('http://88.99.153.133/assets/images/staff.png');
+    background-image: url('http://backhabbo.fr/assets/images/staff.png');
     height: 105px;
     width: 105px;
     margin-bottom: 5px;
@@ -1073,6 +1575,27 @@ nav ul a:hover {
 .card {
     box-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0.14) !important;
     border-radius: 4px !important;
+}
+
+.meuser {
+    /*! box-shadow: 0px 0px 5px hsla(0, 40%, 96.1%, 0.14) !important; */
+    width: 250px;
+    margin-left: 300px;
+    /*! border-radius: 4px !important; */
+}
+
+.riche {
+    /*! box-shadow: 0px 0px 5px hsla(0, 40%, 96.1%, 0.14) !important; */
+    width: 250px;
+    margin-left: 0px;
+    /*! border-radius: 4px !important; */
+}
+
+.jmois {
+    /*! box-shadow: 0px 0px 5px hsla(0, 40%, 96.1%, 0.14) !important; */
+    width: 250px;
+    margin-left: 300px;
+    /*! border-radius: 4px !important; */
 }
 
 .mycustomcard {
