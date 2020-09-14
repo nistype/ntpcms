@@ -25,7 +25,7 @@
     $cloading = "Habbo est en cours de chargement.."; // Texte chargement hotel
     $error = ""; // Page d'erreur
     date_default_timezone_set('America/Mexico_City');  // Zone horraires
-    $register = array(
+    $register = array([
         'credits' => '100000',
         'pixels' => '0',
         'vip_points' => '4',
