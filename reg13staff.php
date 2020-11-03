@@ -102,7 +102,7 @@ $fail= true;
 			</div>
 			</a>
 			</form>
-                 <a href="https://backhabbo.fr">
+                 <a href="<?= $site ?>">
 			<div class="noaccount"><b>Déjà un compte?</b></div>
                 <div class="loginBox-RR">
 			<input type="submit" value="Retour connexion" name="Reg" />
