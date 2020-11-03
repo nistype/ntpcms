@@ -9,7 +9,7 @@
     $linkswf = "https://localhost/swf/c_images/album1584/"; // Lien pour les badges du cms
     $site = "localhost";
     $colorsv = "#14b3e2";
-    $facebook = "https://www.facebook.com/id;
+    $facebook = "https://www.facebook.com/id";
     $prod = ""; // Production
     $hswf = ""; // Habbo.swf
     $iphost = ""; // IP EMU
